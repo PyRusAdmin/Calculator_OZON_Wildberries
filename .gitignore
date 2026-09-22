@@ -3,4 +3,7 @@ __pycache__/
 .idea/
 .venv/
 venv/
+*.log
+log/
+
 .env
