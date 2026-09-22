@@ -12,6 +12,7 @@ static_path = os.path.join(current_dir, "static")
 
 app.mount("/static", StaticFiles(directory=static_path), name="static")
 
+
 @app.get("/")
 async def serve_index():
     # Отдаём index.html с правильным заголовком Content-Type: text/html
