@@ -10,4 +10,3 @@ setup(
     author_email='',
     description='Калькулятор OZON / Wildberries'
 )
-
